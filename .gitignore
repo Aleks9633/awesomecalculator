@@ -3,3 +3,9 @@ __pycache__
 venv
 .coverage
 htmlcov
+# Ignore build artifacts
+*.egg-info/
+build/
+dist/
+src/*.egg-info/
+src/dist/
