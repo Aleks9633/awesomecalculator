@@ -66,9 +66,9 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: awesome-calculator  # The name of the artifact uploaded in the build job
-
-       - name: List downloaded files
-      run: ls -R  # Debug step to inspect the contents of the downloaded artifact
+      
+      - name: List downloaded files
+        run: ls -R  # Debug step to inspect the contents of the downloaded artifact
 
       - name: Install package
         run: |
